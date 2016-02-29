@@ -29,7 +29,7 @@
 一些属性值：
 
 |属性|含义|
-|--|--:|
+|---|:---|:---|
 |behavior_hideable|当bottom sheet下拉时，是否可以全部隐藏|
 |behavior_peekHeight|当bottom sheet关闭时，我们可以看到的高度|
 
@@ -59,7 +59,7 @@ behavior = BottomSheetBehavior.from(bottomSheet);
   当bottom sheet状态发生改变时回调，可以根据newState判定不同的状态
 
   |newState|说明|
-  |--|--:|
+  |---|:---|:---|
   |STATE_COLLAPSED|bottom sheet关闭时的状态，此时显示peekHeight的高度|
   |STATE_DRAGGING|bottom sheet拖动时的状态|
   |STATE_SETTLING|bottom sheet释放|
@@ -71,7 +71,7 @@ behavior = BottomSheetBehavior.from(bottomSheet);
 当bottom sheet拖动时回调,slideOffset的范围是[-1,1]
 
 |newState|slideOffset|
-|--|--:|
+|---|:---|:---|
 |STATE_COLLAPSED|0|
 |STATE_DRAGGING|[-1,1]|
 |STATE_EXPANDED|1|
